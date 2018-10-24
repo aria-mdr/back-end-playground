@@ -1,0 +1,81 @@
+
+nav{
+	border: none;
+	position: fixed;
+}
+nav ul li{
+
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  display: inline-block;
+  margin-right: -4px;
+
+}
+nav ul li {
+  text-decoration: none;
+  height: 50px;
+  color: #fff;
+  display: block;
+  transition: .3s background-color;
+
+}
+nav li:hover
+{
+  background-color: #2ecc71;
+}
+nav a{
+	margin-bottom: 100%;
+}
+nav a.active {
+	background-color: #fff;
+	color: #444;
+	cursor: default;
+}
+.container-fluid{
+	background-color:rgb(36, 35, 35);
+	border: none;
+}
+body {
+	margin: 0;
+	padding: 0;
+	background: #253544;
+}
+.container
+{
+	background-color: #aaa;
+	box-shadow: 0 10px 6px -6px #777;
+}
+.container section
+{
+	float: left;
+	padding: 40px;
+	font-family: serif;
+	font-size: 20px;
+	background-color: #fff;
+	color: rgba(0, 0, 0, 0.973);
+	border-left: 1px #fff solid;
+}
+.container aside
+{
+	height: 100;
+	padding: 20px;
+}
+div .row
+{
+		background-color: #fff;
+		box-shadow: none;
+
+}
+#form-container{
+	margin-top: 0%;
+	margin-left: 20px;
+	width: 1150px;
+	padding: 1px;
+}
+#form
+{
+	
+}
